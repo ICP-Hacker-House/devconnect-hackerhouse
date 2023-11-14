@@ -1,28 +1,16 @@
 # 2023 DevConnect Hacker House
 
-## TOC
-- [2023 DevConnect Hacker House](#2023-devconnect-hacker-house)
-  * [Schedule](#schedule)
-  * [Hackathon](#hackathon)
-    + [Tracks](#tracks)
-      - [xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)](#xchain-dapps----total-prize-pool-of-usd-12k--5k--4k--3k-)
-        * [Add verification of ERC-20 tokens. (Beginner)](#add-verification-of-erc-20-tokens--beginner-)
-        * [Add other ownership details. (Beginner)](#add-other-ownership-details--beginner-)
-        * [Create attestations during verification (Advanced)](#create-attestations-during-verification--advanced-)
-      - [Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)](#create-a-chat-between-verified-owners-of-the-nfts-in-the-same-collection--advanced-)
-      - [Ideas to build with the Bitcoin integration and ckBTC](#ideas-to-build-with-the-bitcoin-integration-and-ckbtc)
-        * [QR Code payment (Beginner)](#qr-code-payment--beginner-)
-        * [Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)](#augment-pos-example-to-fully-fledged-product-website---virtual-store-with-ckbtc--intermediate-)
-        * [Add NFC payments to the PoS example dapp (Advanced)](#add-nfc-payments-to-the-pos-example-dapp--advanced-)
-        * [File Sharing Payment (Advanced)](#file-sharing-payment--advanced-)
-      - [Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
-      - [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k---2k---1k-)
-      - [Community Documentation Effort - Total Prize pool of USD 2k](#community-documentation-effort---total-prize-pool-of-usd-2k)
-    + [Resources](#resources)
-    + [Submission](#submission)
-    + [Judging Criteria](#judging-criteria)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+## Content
+- [Schedule](#schedule)
+- [Hackathon](#hackathon)
+  * [Tracks](#tracks)
+    + [xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)](#xchain-dapps----total-prize-pool-of-usd-12k--5k--4k--3k-)
+    + [Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
+    + [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k---2k---1k-)
+    + [Community Documentation Effort - Total Prize pool of USD 2k](#community-documentation-effort---total-prize-pool-of-usd-2k)
+  * [Resources](#resources)
+  * [Submission](#submission)
+  * [Judging Criteria](#judging-criteria)
 
 ## Schedule
 | Time Slots      | Activity                       | Duration   |
