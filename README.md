@@ -2,7 +2,21 @@
 
 
 ## Schedule
-
+| Time Slots      | Activity                       | Duration   |
+|-----------------|--------------------------------|------------|
+| 8:00 - 8:30     | Registration                   | 30 mins    |
+| 8:30 - 9:00     | Breakfast & Setting Up         | 30 mins    |
+| 9:00 - 9:30     | Welcome & Context Setting      | 30 mins    |
+| 9:30 - 10:30    | Whiteboard Session             | 60 mins    |
+| 10:30 - 11:30   | Building Fully On-Chain Dapps  | 60 mins    |
+| 11:30 - 12:00   | Coding Smart Contract on Bitcoin | 30 mins  |
+| 12:00 - 12:30   | Building Cross-Chain Dapps     | 30 mins    |
+| 12:30 - 13:00   | Hacking challenges and team formation | 30 mins |
+| 13:00 - 13:30   | Lunch + Networking             | 30 mins    |
+| 14:00 - 15:00   | Further Mentoring              | 60 mins    |
+| 14:00 - 19:30   | Hacking Session                | 300 mins   |
+| 19:30 - 21:00   | Graduation & Demos             | 90 mins    |
+| 21:00 - 22:00   | Dinner & Disbursal             | 60 mins    |
 
 ## Hackathon
 
