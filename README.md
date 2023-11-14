@@ -87,7 +87,7 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. 
 -   Enable the user to input a link from Ethereum that references an ERC20 smart contract
     -   Adjust the `verifyNFT` function in `src/components/WalletArea.tsx` to check the user balance of the ERC20 token using the function created in Add a function to verify ownership of an ERC-20 token.
 
-**Full Tutorial:** https://bit.ly/erc20icp-tutorial
+[**Full Tutorial Link**](/erc20icp.md)
 
 ##### Add other ownership details. (Beginner)
 
