@@ -168,6 +168,13 @@ The goal is to start a community documentation effort covering the core protocol
 -   Get to be some of the first contributor and can help steered the project.
 -   Community get to show what they think is the best side of the IC
 
+### Resources
+
+- Discord channel for the event: https://discord.gg/kyUJNWwg
+- [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
+- [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
+- [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
+
 ### Submission
 To submit a project for the hackathon - raise a pull request and  every commit
 before the deadline will be considered.
@@ -198,6 +205,4 @@ root of the repository which contains:
     -   Can a library be used? Is a service actually usable? How far did you go?
 -   **IC Superpowers**
     -   How well did you utilize the superpowers of the Internet Computer?
-
-
 
