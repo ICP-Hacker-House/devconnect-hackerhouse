@@ -34,7 +34,7 @@ ckBTC, HTTPS outcalls, and the IC-ETH-Starter template.
 
 In this track, you are challenged to use one or more of these powerful building
 blocks to create a novel application. In the following we have listed some
-projects you could tackle.All those ideas you can build from the IC-ETH-Starter
+projects you could tackle. All those ideas you can build from the IC-ETH-Starter
 
 
 These bounties focus on adding to the IC-ETH-Starter template which is a starter
@@ -46,7 +46,7 @@ https://github.com/dfinity/ic-eth-starter
 2.  Clone/Fork the IC-ETH-Starter template.
 
 
-#### Add verification of ERC-20 tokens. (Beginner)
+##### Add verification of ERC-20 tokens. (Beginner)
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
 
 **Requirements:**
@@ -65,7 +65,7 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. 
 -   Enable the user to input a link from Ethereum that references an ERC20 smart contract
     -   Adjust the `verifyNFT` function in `src/components/WalletArea.tsx` to check the user balance of the ERC20 token using the function created in Add a function to verify ownership of an ERC-20 token.
 
-#### Add other ownership details. (Beginner)
+##### Add other ownership details. (Beginner)
 
 The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the wallet address of the user who verified ownership of the NFT. Provide owners with other information on their verified NFTs such as:
 
@@ -106,7 +106,7 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs o
 -   Adjust functions to accept the new chain
     -   Adjust parseOpenSeaNft to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
 
-#### Create attestations during verification (Advanced)
+##### Create attestations during verification (Advanced)
 
 Verified owners should be able to add notes to the verification process. Upon
 verifying their NFT ownership, owners can add different notes under their
@@ -134,28 +134,28 @@ collection a special reward, such as an NFT or token.
 -   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
 
 
-### Ideas to build with the Bitcoin integration and ckBTC
+#### Ideas to build with the Bitcoin integration and ckBTC
 
-#### QR Code payment (Beginner)
+##### QR Code payment (Beginner)
 Re-Implement easy way to deploy your own canister for payment that keeps a ledger - should work on mobile devices
 
-#### Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)
+##### Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)
 Any user should be able to roll out their own physical store when linking their Internet Identity
 https://internetcomputer.org/docs/current/samples/pos
 Log in with Internet Identity
 Inventory
 
-#### Add NFC payments to the PoS example dapp (Advanced)
+##### Add NFC payments to the PoS example dapp (Advanced)
 
 Extend the POS example to request payments via NFC and create a simple smartphone app for payment
 
-#### File Sharing Payment (Advanced)
+##### File Sharing Payment (Advanced)
 Upload files locally and exchange them with various II through ckBTC. Produce NFT .
 
 Cli utility wrapping around dfx to upload binary blob with a hash - anyone could buy a hash for a given amount - would get copied to their own storage canister - allow to download
 
 
-## Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)
+#### Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)
 
 Utilize the Internet Computer to build a fully on-chain dapp. Consider using a
 starter project or a sample dapp to kickstart your development. Here are some
@@ -168,8 +168,15 @@ possible directions you could take
 -   **RWA DeFi protocols** - With https outcalls, ICP canisters can bring in real world data streams on chain. We are looking for projects that tokenize new assets and bring them on chain.
 
 
-## Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)
-## Community Documentation Effort - Total Prize pool of USD 2k
+#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)
+
+Here are some suggested themes. Projects are not limited to these verticals.
+
+- DeFi (e.g. AMM, Aggregator, Lending & Borrowing, etc.)
+- NFT & Gaming (e.g. NFT Platform, POAP dApp, Marketplace, Web3 Game etc.)
+- Infrastructure (e.g. Remix, Bridge, Text Messaging, Internet Identity etc.)
+
+#### Community Documentation Effort - Total Prize pool of USD 2k
 
 The goal is to start a community documentation effort covering the core protocol, canister development and the advantage of the IC.
 
@@ -179,7 +186,7 @@ The goal is to start a community documentation effort covering the core protocol
 -   Translate it in many languages.
 -   Create something similar to learn Rust with too many examples.
 -   Create tutorials instead of examples.
--   Get to be some of the first contributor and can help steered the project.
+-   Get to be some of the first contributor and can help steer the project.
 -   Community get to show what they think is the best side of the IC
 
 ### Resources
