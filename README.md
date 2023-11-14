@@ -197,8 +197,8 @@ possible directions you could take
 
 ##### Prizes
 
-1. USD 2.5k in ICP  + 2.5k grant
-2. USD 1.5k in ICP + 1.5k grant
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 1.5k in ICP + 1.5k grant based on project progress
 
 
 #### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
