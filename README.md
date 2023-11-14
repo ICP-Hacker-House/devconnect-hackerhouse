@@ -25,7 +25,8 @@
 | 12:30 - 13:00   | Hacking challenges and team formation | 30 mins |
 | 13:00 - 13:30   | Lunch + Networking             | 30 mins    |
 | 14:00 - 15:00   | Further Mentoring on ICP and Bitfinity             | 60 mins    |
-| 14:00 - 19:30   | Hacking Session                | 300 mins   |
+| 14:00 - 19:00   | Hacking Session                | 300 mins   |
+| 19:00 - 19:30   | Small group presentations      | 30 mins    |
 | 19:30 - 21:00   | Graduation & Demos             | 90 mins    |
 | 21:00 - 22:00   | Dinner & Disbursal             | 60 mins    |
 
