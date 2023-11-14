@@ -90,11 +90,11 @@ The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the 
 
 **Hints:**
 -   Add a function that queries additional data on NFTs
-    -   Add a function that queries additional data on NFTs in src/components/WalletArea.tsx
+    -   Add a function that queries additional data on NFTs in `src/components/WalletArea.tsx`
     -   Call the function in the VerifyNFT function when verifying the ownership of the NFT
 
 -   Save the data
-    -   Update the NFT type and addNFTs function to accept additional data that you would like to save about the ownership of the NFT
+    -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
     -   Enable verification of NFTs on other chains. (Beginner)
 
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
@@ -113,10 +113,10 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs o
 **Hints:**
 
 -   Add a corresponding chain RPC
-    -   Add the corresponding chain RPC under the get_rpc_endpoint function in canisters/ic_eth/src/eth_rpc.rs
+    -   Add the corresponding chain RPC under the get_rpc_endpoint function in `canisters/ic_eth/src/eth_rpc.rs`
 
 -   Adjust functions to accept the new chain
-    -   Adjust parseOpenSeaNft to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
+    -   Adjust `parseOpenSeaNft` to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
 
 ##### Create attestations during verification (Advanced)
 
@@ -220,6 +220,7 @@ root of the repository which contains:
 -   track
 -   team participants
     -   please use GitHub username for everyone
+    -   Discord IDs
 -   canister ID(s) of mainnet deployment
 -   feedback part
     -   what have you learned
