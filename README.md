@@ -36,6 +36,10 @@ small comitee.
 
 Winner of each track will then present on stage their project.
 
+### Cycles
+
+Follow [these steps](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet) to receive cycles to deploy on mainnet.
+
 ## Hackathon
 
 ### Tracks
@@ -157,7 +161,6 @@ collection a special reward, such as an NFT or token.
 
 **Requirements:**
 -   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
-
 
 #### Ideas to build with the Bitcoin integration and ckBTC
 
