@@ -247,3 +247,4 @@ root of the repository which contains:
 -   **IC Superpowers**
     -   How well did you utilize the superpowers of the Internet Computer?
 
+[DFINITY Hackathon Terms and Conditions](https://www.notion.so/dfinityorg/DFINITY-HACKATHON-TERMS-AND-CONDITIONS-Fully-On-Chain-with-ICP-1faf692d49a64c89afb5589a7219eee2?pvs=4)
