@@ -60,9 +60,9 @@ projects you could tackle.
 
 ##### Prizes
 
-1. USD 2.5k in ICP  + 2.5k grant
-2. USD 2k in ICP + 2k grant
-3. USD 1.5k in ICP + 1k grant 
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 2k in ICP + 2k grant based on project progress
+3. USD 1.5k in ICP + 1k grant based on project progress
 
 
 These bounties focus on adding to the IC-ETH-Starter template which is a starter
