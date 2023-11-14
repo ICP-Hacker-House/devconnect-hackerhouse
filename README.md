@@ -29,6 +29,13 @@
 | 19:30 - 21:00   | Graduation & Demos             | 90 mins    |
 | 21:00 - 22:00   | Dinner & Disbursal             | 60 mins    |
 
+### Presentations and judging
+While the DFINITY, Patika and Bitfinity crew will be judging submissions,
+each group will be presenting the project to hackers around their table in a
+small comitee.
+
+Winner of each track will then present on stage their project.
+
 ## Hackathon
 
 ### Tracks
