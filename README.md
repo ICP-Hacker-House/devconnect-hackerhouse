@@ -1,6 +1,5 @@
 # 2023 DevConnect Hacker House
 
-
 ## Schedule
 | Time Slots      | Activity                       | Duration   |
 |-----------------|--------------------------------|------------|
@@ -45,7 +44,6 @@ https://github.com/dfinity/ic-eth-starter
 1.  Attend the Integrating with Ethereum session from 11:30 to 12:00 or watch this Youtube tutorial video to get an overview of the IC-ETH-Starter project.
 2.  Clone/Fork the IC-ETH-Starter template.
 
-
 ##### Add verification of ERC-20 tokens. (Beginner)
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
 
@@ -64,6 +62,8 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. 
 
 -   Enable the user to input a link from Ethereum that references an ERC20 smart contract
     -   Adjust the `verifyNFT` function in `src/components/WalletArea.tsx` to check the user balance of the ERC20 token using the function created in Add a function to verify ownership of an ERC-20 token.
+ 
+**Full Tutorial:** https://bit.ly/erc20icp-tutorial
 
 ##### Add other ownership details. (Beginner)
 
