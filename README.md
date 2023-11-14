@@ -40,10 +40,10 @@ Winner of each track will then present on stage their project.
 
 ### Tracks
 
-Here are the four different tracks we have open and some examples idea you can
+Here are the four different tracks we have open and some example ideas you can
 inspire yourself from/copy
 
-#### xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)
+#### xChain dapps  - Total Prize pool of USD 12k
 
 
 The Internet Computer is a unique platform to build cross-chain dapps. In the
@@ -51,8 +51,14 @@ workshops, you’ll get introduced to threshold ECDSA, the Bitcoin integration,
 ckBTC, HTTPS outcalls, and the IC-ETH-Starter template.
 
 In this track, you are challenged to use one or more of these powerful building
-blocks to create a novel application. In the following we have listed some
-projects you could tackle. All those ideas you can build from the IC-ETH-Starter
+blocks to create a novel application. In the following, we have listed some
+projects you could tackle.
+
+##### Prizes
+
+1. USD 2.5k in ICP  + 2.5k grant
+2. USD 2k in ICP + 2k grant
+3. USD 1.5k in ICP + 1k grant 
 
 
 These bounties focus on adding to the IC-ETH-Starter template which is a starter
@@ -67,9 +73,9 @@ https://github.com/dfinity/ic-eth-starter
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
 
 **Requirements:**
--   A user would input an Etherscan link to a ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
+-   A user would input an Etherscan link to an ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
 -   Once a user clicks on Verify Token, the app will request the user to sign and verify if the user does own a positive balance of the ERC20 token.
--   The ERC20 token verification with the user wallet address will list on the Home page.
+-   The ERC20 token verification with the user wallet address will be listed on the Home page.
 
 **Hints:**
 
@@ -174,7 +180,7 @@ Upload files locally and exchange them with various II through ckBTC. Produce NF
 Cli utility wrapping around dfx to upload binary blob with a hash - anyone could buy a hash for a given amount - would get copied to their own storage canister - allow to download
 
 
-#### Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)
+#### Fully on-chain dapps - Total Prize pool of USD 8k
 
 Utilize the Internet Computer to build a fully on-chain dapp. Consider using a
 starter project or a sample dapp to kickstart your development. Here are some
@@ -186,14 +192,24 @@ possible directions you could take
 -   **Privacy focused applications** - Blockchains in general are not the best for privacy of data. vetKeys on ICP help you build dapps in which users can preserve their privacy.
 -   **RWA DeFi protocols** - With https outcalls, ICP canisters can bring in real world data streams on chain. We are looking for projects that tokenize new assets and bring them on chain.
 
+##### Prizes
 
-#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)
+1. USD 2.5k in ICP  + 2.5k grant
+2. USD 1.5k in ICP + 1.5k grant
+
+
+#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
 
 Here are some suggested themes. Projects are not limited to these verticals.
 
 - DeFi (e.g. AMM, Aggregator, Lending & Borrowing, etc.)
 - NFT & Gaming (e.g. NFT Platform, POAP dApp, Marketplace, Web3 Game etc.)
 - Infrastructure (e.g. Remix, Bridge, Text Messaging, Internet Identity etc.)
+
+##### Prizes
+
+1. USD 2k in ICP
+2. USD 1k in ICP
 
 #### Community Documentation Effort - Total Prize pool of USD 2k
 
@@ -219,7 +235,7 @@ The goal is to start a community documentation effort covering the core protocol
 To submit a project for the hackathon - raise a pull request and  every commit
 before the deadline will be considered.
 
-Your submission need to be in `submissions/`
+Your submission needs to be in `submissions/`
 
 In order for your PR to be considered you need to have a `README.md` file at the
 root of the repository which contains:
