@@ -37,6 +37,10 @@ small comitee.
 
 Winner of each track will then present on stage their project.
 
+### Cycles
+
+Follow [these steps](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet) to receive cycles to deploy on mainnet.
+
 ## Hackathon
 
 ### Tracks
@@ -57,9 +61,9 @@ projects you could tackle.
 
 ##### Prizes
 
-1. USD 2.5k in ICP  + 2.5k grant
-2. USD 2k in ICP + 2k grant
-3. USD 1.5k in ICP + 1k grant 
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 2k in ICP + 2k grant based on project progress
+3. USD 1.5k in ICP + 1k grant based on project progress
 
 
 These bounties focus on adding to the IC-ETH-Starter template which is a starter
@@ -159,7 +163,6 @@ collection a special reward, such as an NFT or token.
 **Requirements:**
 -   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
 
-
 #### Ideas to build with the Bitcoin integration and ckBTC
 
 ##### QR Code payment (Beginner)
@@ -195,8 +198,8 @@ possible directions you could take
 
 ##### Prizes
 
-1. USD 2.5k in ICP  + 2.5k grant
-2. USD 1.5k in ICP + 1.5k grant
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 1.5k in ICP + 1.5k grant based on project progress
 
 
 #### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
