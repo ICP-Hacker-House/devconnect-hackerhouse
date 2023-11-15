@@ -1,54 +1,46 @@
 # 2023 DevConnect Hacker House
 
-## TOC
-- [2023 DevConnect Hacker House](#2023-devconnect-hacker-house)
-  * [Schedule](#schedule)
-  * [Hackathon](#hackathon)
-    + [Tracks](#tracks)
-      - [xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)](#xchain-dapps----total-prize-pool-of-usd-12k--5k--4k--3k-)
-        * [Add verification of ERC-20 tokens. (Beginner)](#add-verification-of-erc-20-tokens--beginner-)
-        * [Add other ownership details. (Beginner)](#add-other-ownership-details--beginner-)
-        * [Create attestations during verification (Advanced)](#create-attestations-during-verification--advanced-)
-      - [Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)](#create-a-chat-between-verified-owners-of-the-nfts-in-the-same-collection--advanced-)
-      - [Ideas to build with the Bitcoin integration and ckBTC](#ideas-to-build-with-the-bitcoin-integration-and-ckbtc)
-        * [QR Code payment (Beginner)](#qr-code-payment--beginner-)
-        * [Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)](#augment-pos-example-to-fully-fledged-product-website---virtual-store-with-ckbtc--intermediate-)
-        * [Add NFC payments to the PoS example dapp (Advanced)](#add-nfc-payments-to-the-pos-example-dapp--advanced-)
-        * [File Sharing Payment (Advanced)](#file-sharing-payment--advanced-)
-      - [Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
-      - [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k---2k---1k-)
-      - [Community Documentation Effort - Total Prize pool of USD 2k](#community-documentation-effort---total-prize-pool-of-usd-2k)
-    + [Resources](#resources)
-    + [Submission](#submission)
-    + [Judging Criteria](#judging-criteria)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+## Content
+- [Schedule](#schedule)
+- [Hackathon](#hackathon)
+  * [Tracks](#tracks)
+    + [xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)](#xchain-dapps----total-prize-pool-of-usd-12k--5k--4k--3k-)
+    + [Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
+    + [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k---2k---1k-)
+    + [Community Documentation Effort - Total Prize pool of USD 2k](#community-documentation-effort---total-prize-pool-of-usd-2k)
+  * [Resources](#resources)
+  * [Submission](#submission)
+  * [Judging Criteria](#judging-criteria)
 
 ## Schedule
-| Time Slots      | Activity                       | Duration   |
+
+
+| **Time Slots**      | **Activity**                       | **Duration**   |
 |-----------------|--------------------------------|------------|
 | 8:00 - 8:30     | Registration                   | 30 mins    |
 | 8:30 - 9:00     | Breakfast & Setting Up         | 30 mins    |
 | 9:00 - 9:30     | Welcome & Context Setting      | 30 mins    |
-| 9:30 - 10:30    | Whiteboard Session Threshold Relay            | 60 mins    |
-| 10:30 - 11:30   | Building Fully On-Chain Dapps  | 60 mins    |
+| 9:30 - 10:30    | Whiteboard Session        | 60 mins    |
+| 10:30 - 11:30   | [Building Fully On-Chain Dapps](https://docs.google.com/presentation/d/1UP80RDDK6MF6GPQAXSslWU5eoH_UAY-HkUgWlvYqfak/edit?usp=sharing)  | 60 mins    |
 | 11:30 - 12:00   | Coding Smart Contract on Bitcoin | 30 mins  |
-| 12:00 - 12:30   | Building Cross-Chain Dapps     | 30 mins    |
+| 12:00 - 12:30   | [Building Cross-Chain Dapps](https://docs.google.com/presentation/d/1hbDoXVhSHfHsnJVx423YHOrVVSJPQjagt-XmYDdafEE/edit?usp=sharing)     | 30 mins    |
 | 12:30 - 13:00   | Hacking challenges and team formation | 30 mins |
 | 13:00 - 13:30   | Lunch + Networking             | 30 mins    |
-| 14:00 - 15:00   | Further Mentoring              | 60 mins    |
-| 14:00 - 19:30   | Hacking Session                | 300 mins   |
+| 14:00 - 15:00   | Further Mentoring on ICP and Bitfinity             | 60 mins    |
+| 14:00 - 19:00   | Hacking Session                | 300 mins   |
+| 19:00 - 19:30   | Small group presentations      | 30 mins    |
 | 19:30 - 21:00   | Graduation & Demos             | 90 mins    |
 | 21:00 - 22:00   | Dinner & Disbursal             | 60 mins    |
+
 
 ## Hackathon
 
 ### Tracks
 
-Here are the four different tracks we have open and some examples idea you can
+Here are the four different tracks we have open and some example ideas you can
 inspire yourself from/copy
 
-#### xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)
+#### xChain dapps  - Total Prize pool of USD 12k
 
 
 The Internet Computer is a unique platform to build cross-chain dapps. In the
@@ -56,8 +48,14 @@ workshops, you’ll get introduced to threshold ECDSA, the Bitcoin integration,
 ckBTC, HTTPS outcalls, and the IC-ETH-Starter template.
 
 In this track, you are challenged to use one or more of these powerful building
-blocks to create a novel application. In the following we have listed some
-projects you could tackle. All those ideas you can build from the IC-ETH-Starter
+blocks to create a novel application. In the following, we have listed some
+projects you could tackle.
+
+##### Prizes
+
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 2k in ICP + 2k grant based on project progress
+3. USD 1.5k in ICP + 1k grant based on project progress
 
 
 These bounties focus on adding to the IC-ETH-Starter template which is a starter
@@ -72,9 +70,9 @@ https://github.com/dfinity/ic-eth-starter
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
 
 **Requirements:**
--   A user would input an Etherscan link to a ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
+-   A user would input an Etherscan link to an ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
 -   Once a user clicks on Verify Token, the app will request the user to sign and verify if the user does own a positive balance of the ERC20 token.
--   The ERC20 token verification with the user wallet address will list on the Home page.
+-   The ERC20 token verification with the user wallet address will be listed on the Home page.
 
 **Hints:**
 
@@ -102,11 +100,11 @@ The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the 
 
 **Hints:**
 -   Add a function that queries additional data on NFTs
-    -   Add a function that queries additional data on NFTs in src/components/WalletArea.tsx
+    -   Add a function that queries additional data on NFTs in `src/components/WalletArea.tsx`
     -   Call the function in the VerifyNFT function when verifying the ownership of the NFT
 
 -   Save the data
-    -   Update the NFT type and addNFTs function to accept additional data that you would like to save about the ownership of the NFT
+    -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
     -   Enable verification of NFTs on other chains. (Beginner)
 
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
@@ -125,10 +123,10 @@ The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs o
 **Hints:**
 
 -   Add a corresponding chain RPC
-    -   Add the corresponding chain RPC under the get_rpc_endpoint function in canisters/ic_eth/src/eth_rpc.rs
+    -   Add the corresponding chain RPC under the get_rpc_endpoint function in `canisters/ic_eth/src/eth_rpc.rs`
 
 -   Adjust functions to accept the new chain
-    -   Adjust parseOpenSeaNft to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
+    -   Adjust `parseOpenSeaNft` to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
 
 ##### Create attestations during verification (Advanced)
 
@@ -157,7 +155,6 @@ collection a special reward, such as an NFT or token.
 **Requirements:**
 -   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
 
-
 #### Ideas to build with the Bitcoin integration and ckBTC
 
 ##### QR Code payment (Beginner)
@@ -179,7 +176,7 @@ Upload files locally and exchange them with various II through ckBTC. Produce NF
 Cli utility wrapping around dfx to upload binary blob with a hash - anyone could buy a hash for a given amount - would get copied to their own storage canister - allow to download
 
 
-#### Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)
+#### Fully on-chain dapps - Total Prize pool of USD 8k
 
 Utilize the Internet Computer to build a fully on-chain dapp. Consider using a
 starter project or a sample dapp to kickstart your development. Here are some
@@ -191,14 +188,28 @@ possible directions you could take
 -   **Privacy focused applications** - Blockchains in general are not the best for privacy of data. vetKeys on ICP help you build dapps in which users can preserve their privacy.
 -   **RWA DeFi protocols** - With https outcalls, ICP canisters can bring in real world data streams on chain. We are looking for projects that tokenize new assets and bring them on chain.
 
+##### Prizes
 
-#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)
+1. USD 2.5k in ICP  + 2.5k grant based on project progress
+2. USD 1.5k in ICP + 1.5k grant based on project progress
+
+
+#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
+
+[Bitfinity](Bitfinity is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol) is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol
+It helps scale the Ethereum ecosystem for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable, and future-safe platform, with low transaction costs for their users.
 
 Here are some suggested themes. Projects are not limited to these verticals.
 
 - DeFi (e.g. AMM, Aggregator, Lending & Borrowing, etc.)
 - NFT & Gaming (e.g. NFT Platform, POAP dApp, Marketplace, Web3 Game etc.)
 - Infrastructure (e.g. Remix, Bridge, Text Messaging, Internet Identity etc.)
+
+
+##### Prizes
+
+1. USD 2k in ICP
+2. USD 1k in ICP
 
 #### Community Documentation Effort - Total Prize pool of USD 2k
 
@@ -220,11 +231,15 @@ The goal is to start a community documentation effort covering the core protocol
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
 
+#### Cycles
+
+Follow [these steps](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet) to receive cycles to deploy on mainnet.
+
 ### Submission
 To submit a project for the hackathon - raise a pull request and  every commit
 before the deadline will be considered.
 
-Your submission need to be in `submissions/`
+Your submission needs to be in `submissions/`
 
 In order for your PR to be considered you need to have a `README.md` file at the
 root of the repository which contains:
@@ -232,13 +247,23 @@ root of the repository which contains:
 -   track
 -   team participants
     -   please use GitHub username for everyone
+    -   Discord IDs
 -   canister ID(s) of mainnet deployment
 -   feedback part
     -   what have you learned
     -   what were the challenges you ran into
     -   what are you proud of
 
-### Judging Criteria
+### Judging
+
+#### Presentations and judging
+While the DFINITY, Patika, and Bitfinity crew will be judging submissions,
+each group will be presenting the project to hackers around their table in a
+small committee.
+
+The winner(s) of each track will then present their project on stage.
+
+#### Judging Criteria
 
 -   **X Factor and Potential**
     -   What is the wow factor of the idea? Does it have potential?
@@ -251,3 +276,4 @@ root of the repository which contains:
 -   **IC Superpowers**
     -   How well did you utilize the superpowers of the Internet Computer?
 
+[DFINITY Hackathon Terms and Conditions](https://www.notion.so/dfinityorg/DFINITY-HACKATHON-TERMS-AND-CONDITIONS-Fully-On-Chain-with-ICP-1faf692d49a64c89afb5589a7219eee2?pvs=4)
