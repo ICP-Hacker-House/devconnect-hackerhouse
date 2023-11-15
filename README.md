@@ -19,7 +19,7 @@
 | 8:30 - 9:00     | Breakfast & Setting Up         | 30 mins    |
 | 9:00 - 9:30     | Welcome & Context Setting      | 30 mins    |
 | 9:30 - 10:30    | Whiteboard Session Threshold Relay            | 60 mins    |
-| 10:30 - 11:30   | Building Fully On-Chain Dapps  | 60 mins    |
+| 10:30 - 11:30   | [Building Fully On-Chain Dapps](https://docs.google.com/presentation/d/1UP80RDDK6MF6GPQAXSslWU5eoH_UAY-HkUgWlvYqfak/edit?usp=sharing)  | 60 mins    |
 | 11:30 - 12:00   | Coding Smart Contract on Bitcoin | 30 mins  |
 | 12:00 - 12:30   | Building Cross-Chain Dapps     | 30 mins    |
 | 12:30 - 13:00   | Hacking challenges and team formation | 30 mins |
@@ -30,16 +30,6 @@
 | 19:30 - 21:00   | Graduation & Demos             | 90 mins    |
 | 21:00 - 22:00   | Dinner & Disbursal             | 60 mins    |
 
-### Presentations and judging
-While the DFINITY, Patika and Bitfinity crew will be judging submissions,
-each group will be presenting the project to hackers around their table in a
-small comitee.
-
-Winner of each track will then present on stage their project.
-
-### Cycles
-
-Follow [these steps](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet) to receive cycles to deploy on mainnet.
 
 ## Hackathon
 
@@ -204,11 +194,15 @@ possible directions you could take
 
 #### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
 
+[Bitfinity](Bitfinity is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol) is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol
+It helps scale the Ethereum ecosystem for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable, and future-safe platform, with low transaction costs for their users.
+
 Here are some suggested themes. Projects are not limited to these verticals.
 
 - DeFi (e.g. AMM, Aggregator, Lending & Borrowing, etc.)
 - NFT & Gaming (e.g. NFT Platform, POAP dApp, Marketplace, Web3 Game etc.)
 - Infrastructure (e.g. Remix, Bridge, Text Messaging, Internet Identity etc.)
+
 
 ##### Prizes
 
@@ -235,6 +229,10 @@ The goal is to start a community documentation effort covering the core protocol
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
 
+#### Cycles
+
+Follow [these steps](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet) to receive cycles to deploy on mainnet.
+
 ### Submission
 To submit a project for the hackathon - raise a pull request and  every commit
 before the deadline will be considered.
@@ -254,7 +252,16 @@ root of the repository which contains:
     -   what were the challenges you ran into
     -   what are you proud of
 
-### Judging Criteria
+### Judging
+
+#### Presentations and judging
+While the DFINITY, Patika, and Bitfinity crew will be judging submissions,
+each group will be presenting the project to hackers around their table in a
+small committee.
+
+The winner(s) of each track will then present their project on stage.
+
+#### Judging Criteria
 
 -   **X Factor and Potential**
     -   What is the wow factor of the idea? Does it have potential?
