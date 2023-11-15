@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/blackbird/Documents/Codes/Blockchain/health-dapp/target/wasm32-unknown-unknown/release/build/typenum-4e34257d2e29c9b0/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/blackbird/Documents/Codes/Blockchain/health-dapp/target/wasm32-unknown-unknown/release/build/typenum-4e34257d2e29c9b0/out/op.rs
