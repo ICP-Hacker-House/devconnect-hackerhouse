@@ -13,12 +13,14 @@
   * [Judging Criteria](#judging-criteria)
 
 ## Schedule
-| Time Slots      | Activity                       | Duration   |
+
+
+| **Time Slots**      | **Activity**                       | **Duration**   |
 |-----------------|--------------------------------|------------|
 | 8:00 - 8:30     | Registration                   | 30 mins    |
 | 8:30 - 9:00     | Breakfast & Setting Up         | 30 mins    |
 | 9:00 - 9:30     | Welcome & Context Setting      | 30 mins    |
-| 9:30 - 10:30    | Whiteboard Session Threshold Relay            | 60 mins    |
+| 9:30 - 10:30    | Whiteboard Session        | 60 mins    |
 | 10:30 - 11:30   | [Building Fully On-Chain Dapps](https://docs.google.com/presentation/d/1UP80RDDK6MF6GPQAXSslWU5eoH_UAY-HkUgWlvYqfak/edit?usp=sharing)  | 60 mins    |
 | 11:30 - 12:00   | Coding Smart Contract on Bitcoin | 30 mins  |
 | 12:00 - 12:30   | [Building Cross-Chain Dapps](https://docs.google.com/presentation/d/1hbDoXVhSHfHsnJVx423YHOrVVSJPQjagt-XmYDdafEE/edit?usp=sharing)     | 30 mins    |
