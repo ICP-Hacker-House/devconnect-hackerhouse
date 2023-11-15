@@ -1,0 +1,1 @@
+{"rustc":9313819672678296987,"features":"","target":0,"profile":0,"path":0,"deps":[[14326521819535396835,"build_script_build",false,12657998403743805759]],"local":[{"RerunIfChanged":{"output":"debug/build/candid-1e9cfb4ee08a7811/output","paths":["src/parser/grammar.lalrpop"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

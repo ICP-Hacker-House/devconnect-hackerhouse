@@ -1,0 +1,12 @@
+type EncryptedNote = record { id : nat; encrypted_text : text };
+type anon_class_15_1 = service {
+  add_note : (text) -> ();
+  app_vetkd_public_key : (vec vec nat8) -> (text);
+  delete_note : (nat) -> ();
+  encrypted_symmetric_key_for_caller : (vec nat8) -> (text);
+  get_notes : () -> (vec EncryptedNote);
+  symmetric_key_verification_key : () -> (text);
+  update_note : (EncryptedNote) -> ();
+  whoami : () -> (text);
+};
+service : anon_class_15_1
