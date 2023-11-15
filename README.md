@@ -5,7 +5,7 @@
 - [Hackathon](#hackathon)
   * [Tracks](#tracks)
     + [xChain dapps  - Total Prize pool of USD 12k (5k, 4k, 3k)](#xchain-dapps----total-prize-pool-of-usd-12k--5k--4k--3k-)
-    + [Fully on-chain dapps - Total Prize pool of USD 8k ($5k & 3k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
+    + [Fully on-chain dapps - Total Prize pool of USD 8k (3k, 2k, 2k, 1k)](#fully-on-chain-dapps---total-prize-pool-of-usd-8k---5k---3k-)
     + [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k ( 2k & 1k)](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k---2k---1k-)
     + [Community Documentation Effort - Total Prize pool of USD 2k](#community-documentation-effort---total-prize-pool-of-usd-2k)
   * [Resources](#resources)
@@ -192,8 +192,10 @@ possible directions you could take
 
 ##### Prizes
 
-1. USD 2.5k in ICP  + 2.5k grant based on project progress
-2. USD 1.5k in ICP + 1.5k grant based on project progress
+1. USD 1.5k in ICP  + 1.5k grant based on project progress
+2. USD 1k in ICP + 1k grant based on project progress
+3. USD 1k in ICP + 1k grant based on project progress
+4. USD 1k in ICP
 
 
 #### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
