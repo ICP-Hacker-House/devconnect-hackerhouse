@@ -1,3 +1,6 @@
 [submodule "submissions/sample-devconnect-project"]
 	path = submissions/sample-devconnect-project
 	url = git@github.com:EnzoPlayer0ne/sample-devconnect-project.git
+[submodule "submissions/enzo-project"]
+	path = submissions/enzo-project
+	url = git@github.com:EnzoPlayer0ne/sample-devconnect-project.git
