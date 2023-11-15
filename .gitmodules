@@ -1,0 +1,3 @@
+[submodule "submissions/BlockFusion"]
+	path = submissions/BlockFusion
+	url = https://github.com/Goguzgungor/ic-eth-starter
