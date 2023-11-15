@@ -106,6 +106,8 @@ The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the 
 -   Save the data
     -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
     -   Enable verification of NFTs on other chains. (Beginner)
+ 
+#### Enable verification of NFTs on other chains. (Intermediate)
 
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
 
@@ -145,7 +147,7 @@ Internet Computer principals using vetKeys.
 
 [vetKeys](https://internetcomputer.org/docs/current/developer-docs/integrations/vetkeys/technology-overview)
 
-#### Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)
+##### Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)
 Create a chat between verified owners of any NFT collection. For example, if an
 NFT owner verifies their ownership of a Bored Ape, the app will open a chat
 between any other Bored Ape owners who have verified their ownership. You can
