@@ -21,7 +21,7 @@
 | 9:30 - 10:30    | Whiteboard Session Threshold Relay            | 60 mins    |
 | 10:30 - 11:30   | [Building Fully On-Chain Dapps](https://docs.google.com/presentation/d/1UP80RDDK6MF6GPQAXSslWU5eoH_UAY-HkUgWlvYqfak/edit?usp=sharing)  | 60 mins    |
 | 11:30 - 12:00   | Coding Smart Contract on Bitcoin | 30 mins  |
-| 12:00 - 12:30   | Building Cross-Chain Dapps     | 30 mins    |
+| 12:00 - 12:30   | [Building Cross-Chain Dapps](https://docs.google.com/presentation/d/1hbDoXVhSHfHsnJVx423YHOrVVSJPQjagt-XmYDdafEE/edit?usp=sharing)     | 30 mins    |
 | 12:30 - 13:00   | Hacking challenges and team formation | 30 mins |
 | 13:00 - 13:30   | Lunch + Networking             | 30 mins    |
 | 14:00 - 15:00   | Further Mentoring on ICP and Bitfinity             | 60 mins    |
