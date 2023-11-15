@@ -1,0 +1,3 @@
+[submodule "submissions/project"]
+	path = submissions/project
+	url = git@github.com:emirhangumus/hack42medi.git
