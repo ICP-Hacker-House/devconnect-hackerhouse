@@ -106,7 +106,7 @@ The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the 
 -   Save the data
     -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
     -   Enable verification of NFTs on other chains. (Beginner)
- 
+
 #### Enable verification of NFTs on other chains. (Intermediate)
 
 The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
@@ -159,23 +159,18 @@ collection a special reward, such as an NFT or token.
 
 #### Ideas to build with the Bitcoin integration and ckBTC
 
-##### QR Code payment (Beginner)
-Re-Implement easy way to deploy your own canister for payment that keeps a ledger - should work on mobile devices
-
 ##### Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)
-Any user should be able to roll out their own physical store when linking their Internet Identity
-https://internetcomputer.org/docs/current/samples/pos
-Log in with Internet Identity
-Inventory
+Using the [POS](https://internetcomputer.org/docs/current/samples/pos) example, from the internet computer documentation. You can extend it
+to have an inventory of items and
 
 ##### Add NFC payments to the PoS example dapp (Advanced)
-
-Extend the POS example to request payments via NFC and create a simple smartphone app for payment
+Extend the last POS example to request payments via NFC instead of QR code!
 
 ##### File Sharing Payment (Advanced)
-Upload files locally and exchange them with various II through ckBTC. Produce NFT .
+Upload files locally and exchange them with various principals through ckBTC.
 
-Cli utility wrapping around dfx to upload binary blob with a hash - anyone could buy a hash for a given amount - would get copied to their own storage canister - allow to download
+The cli utility wrapping around dfx should upload binary blob with a hash -
+anyone should be able buy a hash for a given amount - would get copied to their own storage canister - which they would be allowed to download.
 
 
 #### Fully on-chain dapps - Total Prize pool of USD 8k
@@ -217,12 +212,13 @@ Here are some suggested themes. Projects are not limited to these verticals.
 
 #### Community Documentation Effort - Total Prize pool of USD 2k
 
-The goal is to start a community documentation effort covering the core protocol, canister development and the advantage of the IC.
+The goal is to start a community documentation effort covering the core
+protocol, canister development and the advantage of the IC.
 
--   Recreate the Motoko developer journey in Rust as we will have strong Rust skills gathered in one place
--   Show the actual code instead of cloning it
+-   Recreate the Motoko developer journey in Rust as we will have strong Rust skills gathered in one place.
+-   Show the actual code development step by step.
 -   Have a community controlled project.
--   Translate it in many languages.
+-   Translate it in different languages.
 -   Create something similar to learn Rust with too many examples.
 -   Create tutorials instead of examples.
 -   Get to be some of the first contributor and can help steer the project.
