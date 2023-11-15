@@ -1,3 +1,7 @@
+
+[submodule "submissions/project"]
+	path = submissions/project
+	url = git@github.com:emirhangumus/hack42medi.git
 [submodule "submissions/icp-anonim"]
 	path = submissions/icp-anonim
 	url = https://github.com/ke4s/icp.git
