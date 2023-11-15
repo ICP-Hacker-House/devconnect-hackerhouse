@@ -1,0 +1,3 @@
+[submodule "submissions/icp-anonim"]
+	path = submissions/icp-anonim
+	url = https://github.com/ke4s/icp.git
