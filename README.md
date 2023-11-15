@@ -230,6 +230,7 @@ protocol, canister development and the advantage of the IC.
 - [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
+- [AI Chatbot](https://icp-ai-chat-frontend.vercel.app/)
 
 #### Cycles
 
