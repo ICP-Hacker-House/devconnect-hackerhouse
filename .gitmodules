@@ -7,3 +7,6 @@
 [submodule "submissions/BlockFusion"]
 	path = submissions/BlockFusion
 	url = https://github.com/Goguzgungor/ic-eth-starter
+[submodule "submissions/all-in"]
+	path = submissions/all-in
+	url = https://github.com/kesiciiumut/all-in.git
