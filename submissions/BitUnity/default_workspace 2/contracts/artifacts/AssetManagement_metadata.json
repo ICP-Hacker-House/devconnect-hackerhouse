@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "assetId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "assetName",
+						"type": "string"
+					}
+				],
+				"name": "AssetAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_assetName",
+						"type": "string"
+					}
+				],
+				"name": "addAsset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUserAssets",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct AssetManagement.Asset[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AssetManagement.sol": "AssetManagement"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AssetManagement.sol": {
+			"keccak256": "0xa9c36cc10193b14bfb574d2f2bde65bc3e6c40acc305869f9c62b0ede62d0e0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53a857c7091fa8d22cfd3aa685b9804720c7a6f35b953bc36c04b04a65d73689",
+				"dweb:/ipfs/QmWr9tEjZKdMabk2BrKijJ86sN9XMMdazuoaKQPgRqtyoZ"
+			]
+		}
+	},
+	"version": 1
+}
