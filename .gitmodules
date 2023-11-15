@@ -1,0 +1,3 @@
+[submodule "submissions/erc20akkayadila"]
+	path = submissions/erc20akkayadila
+	url = https://github.com/akkayadila/erc20verification.git
