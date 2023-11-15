@@ -1,12 +1,15 @@
+[submodule "submissions/icp-anonim"]
+	path = submissions/icp-anonim
+	url = https://github.com/ke4s/icp.git
+[submodule "submissions/BlockFusion"]
+	path = submissions/BlockFusion
+	url = https://github.com/Goguzgungor/ic-eth-starter
 [submodule "submissions/erc20akkayadila"]
 	path = submissions/erc20akkayadila
 	url = https://github.com/akkayadila/erc20verification.git
 [submodule "submissions/elif-t8"]
 	path = submissions/elif-t8
 	url = https://github.com/elifsudecesur12/Sport3-h-
-[submodule "submissions/BlockFusion"]
-	path = submissions/BlockFusion
-	url = https://github.com/Goguzgungor/ic-eth-starter
 [submodule "submissions/all-in"]
 	path = submissions/all-in
 	url = https://github.com/kesiciiumut/all-in.git
