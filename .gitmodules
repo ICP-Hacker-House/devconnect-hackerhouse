@@ -17,3 +17,6 @@
 [submodule "submissions/all-in"]
 	path = submissions/all-in
 	url = https://github.com/kesiciiumut/all-in.git
+[submodule "submissions/cknft"]
+	path = submissions/cknft
+	url = git@github.com:b3hr4d/cknft.git
