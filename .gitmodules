@@ -1,3 +1,6 @@
+[submodule "submissions/erc20akkayadila"]
+	path = submissions/erc20akkayadila
+	url = https://github.com/akkayadila/erc20verification.git
 [submodule "submissions/elif-t8"]
 	path = submissions/elif-t8
 	url = https://github.com/elifsudecesur12/Sport3-h-
