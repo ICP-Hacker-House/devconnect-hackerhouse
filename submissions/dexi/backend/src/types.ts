@@ -27,6 +27,9 @@ interface Result {
   functionName: string;
 }
 
+// The contract addresses should be hardcoded since we cannot know them in advance, but for the sake of simplicity we will hardcode them here.
+// These addresses is for like Starkgate etc.
+
 export const NFTS = [
   "0x0e0Fcb520F76f3eAC0Aa764De4B97C53Eb366158".toLowerCase(),
   "0x44e94034AFcE2Dd3CD5Eb62528f239686Fc8f162".toLowerCase(),
