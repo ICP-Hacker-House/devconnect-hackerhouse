@@ -2,180 +2,17 @@ import Web3 from "web3";
 import HDWalletProvider from "@truffle/hdwallet-provider";
 import "dotenv/config";
 import { JsonResult, BRIDGES, DEPOSIT, NFTS, SWAP } from "./types";
+import { ABI } from "./abi";
 
-const abi = [
-  {
-    inputs: [],
-    stateMutability: "nonpayable",
-    type: "constructor",
-  },
-  {
-    inputs: [],
-    name: "add_request",
-    outputs: [],
-    stateMutability: "payable",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        components: [
-          {
-            internalType: "uint256",
-            name: "creditScore",
-            type: "uint256",
-          },
-          {
-            internalType: "uint256",
-            name: "lastUpdatedTimestamp",
-            type: "uint256",
-          },
-          {
-            internalType: "uint256",
-            name: "lastUpdatedBlock",
-            type: "uint256",
-          },
-        ],
-        internalType: "struct WhaleScore.OracleData",
-        name: "data",
-        type: "tuple",
-      },
-      {
-        internalType: "address",
-        name: "user",
-        type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "index",
-        type: "uint256",
-      },
-    ],
-    name: "apply_request",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
-        name: "user",
-        type: "address",
-      },
-    ],
-    name: "get_last_updated_block",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
-        name: "user",
-        type: "address",
-      },
-    ],
-    name: "get_last_updated_timestamp",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "get_oracle",
-    outputs: [
-      {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "get_queue",
-    outputs: [
-      {
-        internalType: "address[]",
-        name: "",
-        type: "address[]",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
-        name: "user",
-        type: "address",
-      },
-    ],
-    name: "get_score",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
-        name: "user",
-        type: "address",
-      },
-    ],
-    name: "get_user_data",
-    outputs: [
-      {
-        components: [
-          {
-            internalType: "uint256",
-            name: "creditScore",
-            type: "uint256",
-          },
-          {
-            internalType: "uint256",
-            name: "lastUpdatedTimestamp",
-            type: "uint256",
-          },
-          {
-            internalType: "uint256",
-            name: "lastUpdatedBlock",
-            type: "uint256",
-          },
-        ],
-        internalType: "struct WhaleScore.OracleData",
-        name: "",
-        type: "tuple",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-] as any;
+if (
+  process.env.MNEMONIC === undefined ||
+  process.env.CONTRACT_ADDRESS === undefined ||
+  process.env.CONTRACT_OWNER === undefined
+) {
+  throw new Error(
+    "Please set MNEMONIC, CONTRACT_ADDRESS and CONTRACT_OWNER in .env file"
+  );
+}
 
 const numberOfAddresses = 3;
 
@@ -187,25 +24,20 @@ let provider = new HDWalletProvider({
 
 const web3 = new Web3(provider);
 
-let contract = new web3.eth.Contract(
-  abi,
-  "0xB128f9d63204c6c94E5e3c4dB48aF4cb48f2b1bb"
-);
+let contract = new web3.eth.Contract(ABI, process.env.CONTRACT_ADDRESS);
 contract.handleRevert = true;
 
 async function main() {
-  console.log("Started");
   while (true) {
     try {
       const queue: string[] = await contract.methods.get_queue().call();
-
-      console.log(queue.length + " users in queue");
       if (queue.length > 0) {
         const user = queue[0];
         console.log(user);
         const score = await calculateCreditPoints(user);
 
         if (score === 0) continue;
+        console.log(score);
 
         await contract.methods
           .apply_request(
@@ -218,7 +50,7 @@ async function main() {
             1
           )
           .send({
-            from: "0xBe74213F721899bdB2a8e58bb83e95d48249630d",
+            from: process.env.CONTRACT_OWNER,
             gas: 1000000,
           });
       }
